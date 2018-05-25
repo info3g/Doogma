@@ -1,0 +1,609 @@
+h2 {
+   text-align: left;	
+}
+.headings p {
+	display: inline-block;
+	margin: 10px 20px;
+}
+.products-container .content p {
+	display: inline-block;
+	margin: 10px 12px;
+}
+.headings p {
+	display: inline-block;
+	margin: 10px;
+}
+.optionProducts-container .content p {
+	display: inline-block;
+	margin: 10px 28px;
+}
+.productname {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+	max-width: 200px;
+	display: inline-block;	
+}
+.top-pagination div {
+	display: inline-block;
+}
+.pagination {
+	margin: 0;
+}
+.filterBYkeyword .resetkeywordForm {
+	position: absolute;
+	right: 58px;
+	top: 0;
+	bottom: 0;
+}
+.searchBYsku .resetskuForm {
+	position: absolute;
+	right: 71px;
+	top: 0;
+	bottom: 0;
+}
+.filterBYkeywordOptions .resetFormOptions {
+	position: absolute;
+	right: 57px;
+	top: 0;
+	bottom: 0;
+}
+form[name="filterKeyword"] , form[name="searchSKU"], form[name="filterKeywordOptions"] {
+	position: relative;
+}
+.loaderOuter span {
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+}
+.loaderOuter {
+	position: relative;
+	background: #fff;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	z-index: 999;
+	left: 0;
+	right:0;
+	bottom:0;
+	top:0;
+} 
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+    background: transparent;
+    border-width: 0 0 1px 0px;
+    border-radius: 0;
+    padding: 0;
+}
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header li {
+    background: transparent;
+    color: #707070;
+    border: none;
+}
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header li a {
+    /* font-weight: 600; */
+    font-size: 16px;
+    color: #707070;
+    outline: none;
+    border-bottom: solid 3px #fff;
+    padding: 4px 10px;
+}
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header li.ui-tabs-active a {
+    color: #000;
+    border-bottom: solid 3px #4b71fc;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+    padding: 0;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+div#products, div#productOptions, div#manualSettings {
+    border: 1px solid #dddddd;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+nav.top-pagination {
+    float: left;
+    width: 100%;
+}
+.top-pagination div {
+    display: inline-block;
+    float: left;
+}
+nav.top-pagination form {
+    margin: 0;
+}
+nav.top-pagination form input[type="text"] {
+    border: solid 1px #ddd;
+    padding: 4px 10px;
+    border-radius: 2px;
+    width: 170px;
+}
+nav.top-pagination form input[type="button"] {
+    border: solid 1px #4b71fc;
+    background: transparent;
+    padding: 4px 10px;
+    color: #4b71fc;
+    font-weight: 600; 
+}
+.products-container {
+    float: left; 
+    width: 100%;
+} 
+.searchBYsku, .filterBYkeyword, .filterBYkeywordOptions {
+    display: inline-block;
+    float: left;
+    padding: 6px 10px;
+    border-right: solid 1px #ddd;
+}
+.rightside-product, .rightside-options {
+    float: right !important;
+}
+ul#pagination, ul#optionpagination {
+    border-width: 0 0px 0 1px;
+    border-color: #ddd;
+    border-style: solid;
+    padding: 9px 12px;
+}
+.productlimit, .optionslimit {
+    border-left: solid 1px #ddd;
+}
+.pagination-outer li a.page-link {
+    border: none;
+    padding: 2px 4px;
+}
+.headings {
+    background: #f1f1f1;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #ddd;
+}
+.pagination-outer li.page-item.active a.page-link {
+    background: #aba9a9;
+}
+.productlimit, .optionslimit {
+    padding: 11px 12px;
+}
+.productlimit span, .optionslimit span {
+    color: #4b71fc;
+}
+.productlimit select, .optionslimit select {
+    border: none;
+    color: #4b71fc;
+    background-image: url(https://doogma-anujn.c9users.io/images/arrow.png) !important;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    width: 36px;
+}
+.productlimit select, .optionslimit select {
+    -webkit-appearance: none;
+    -moz-appearance: none;      
+     appearance: none;
+} 
+.contents .content {
+    border-bottom: solid 1px #ddd;
+}
+.contents .content form {
+    margin: 0;
+} 
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+}
+ 
+.switch input {display:none;}
+.ui-tabs .ui-tabs-panel {
+    padding: 0em 0em !important;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.options-container-main .contents .content form p input[type="button"] {
+    background: #4b71fc;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 0;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    top: -3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input:checked + .slider {
+  background-color: #b7c6fe;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(35px);
+  transform: translateX(35px);
+  background: #4b71fc;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+ 
+.slider.round:before {
+  border-radius: 50%;
+}
+.products-container .products .headings p:first-child, .products-container .products .contents .content form p:first-child {
+    width: 45px;
+}
+.products-container .products .contents .content form p img {
+    width: 100%;
+}
+.products-container .products .headings p:nth-child(2), .products-container .products .contents .content form p:nth-child(2) {
+    width: 75px;
+}
+.products-container .products .headings p:nth-child(3), .products-container .products .contents .content form p:nth-child(3) {
+    width: 160px;
+}
+.products-container .products .headings p:nth-child(4), .products-container .products .contents .content form p:nth-child(4) {
+    width: 42px;
+}
+.products-container .products .headings p:nth-child(5), .products-container .products .contents .content form p:nth-child(5) {
+    width: 115px;
+    text-align: center;
+}
+.products-container .products .headings p:nth-child(7), .products-container .products .contents .content form p:nth-child(7) {
+	width: 115px;
+}
+.products-container .products .headings p:nth-child(6), .products-container .products .contents .content form p:nth-child(6)
+, .options-container-main .optionProducts-container .headings p:nth-child(3), .options-container-main .optionProducts-container .headings p:nth-child(4){
+    width: 100px;
+}
+.contents .content form p input[type="text"] {
+    width: 100%;
+    padding: 4px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+}
+.products-container .products .headings p:nth-child(5), .products-container .products .headings p:nth-child(6), .products-container .products .headings p:nth-child(7) {
+	font-weight: 600;
+}
+.products-container .products .headings p:last-child, .products-container .products .contents .content form p:last-child {
+    width: 88px;
+}
+.contents .content form p input[type="button"] {
+    background: #b7c6fe;
+    border: none;
+    width: 100%;
+    padding: 6px 0;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 2px #7994f1;
+}
+.contents .content form p input.saveDoogma.highlighted {
+    background: #4b71fc;
+}
+.products-container .headings p {
+    display: inline-block;
+    margin: 12px 12px;
+}
+.productname {
+    position: relative;
+    top: 15px;
+}
+.products-container .products .contents .content form p:nth-child(5) {
+    position: relative;
+    top: 10px;
+}
+.disable_input {
+    color: #ccc;
+}   
+.options-container-main, .productoptions {
+    float: left;
+    width: 100%;
+}
+.headings p {
+    display: inline-block;
+    margin: 10px 18px;
+	font-size: 12px;
+}
+.optionProducts-container .content p {
+    display: inline-block;
+    margin: 10px 18px;
+}
+.content p {
+	font-size: 12px;
+}
+.optionProducts-container .defaultOption {
+	position: relative;
+	top: 10px;
+}
+.options-container-main .optionProducts-container .headings p:first-child, .options-container-main .optionProducts-container .contents .content p:first-child {
+    width: 140px;
+}
+.options-container-main .optionProducts-container .contents .content p:first-child {
+    color: #4b71fc;
+}
+.options-container-main .optionProducts-container .headings p:nth-child(2), .options-container-main .optionProducts-container .contents .content p:nth-child(2) {
+    width: 90px;
+}
+.options-container-main .optionProducts-container .headings p:nth-child(3), .options-container-main .optionProducts-container .contents .content p:nth-child(3) {
+    width: 160px;
+    text-align: center;
+}
+.options-container-main .optionProducts-container .headings p:nth-child(4), .options-container-main .optionProducts-container .contents .content p:nth-child(4) {
+    width: 145px;
+}
+.optionProducts-container .content p input[type="text"] {
+    width: 100%;
+    padding: 4px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+}
+.products-container .products .contents .content form p:nth-child(3) {
+    color: #4b71fc;
+}
+span.update_msg {
+    position: absolute;
+    top: 5px;
+    right: -30px;
+}
+.options-container-main .optionProducts-container .headings p:nth-child(3), .options-container-main .optionProducts-container .headings p:nth-child(4) {
+    font-weight: 600;
+}
+.contents .content form p:last-child {
+    position: relative;
+}
+span.update_msg img {
+    width: 26px !important;
+}
+.options-container-main .optionProducts-container .headings p:last-child, .options-container-main .optionProducts-container .contents .content p:last-child {
+    width: 88px;
+}
+.options-container-main .optionProducts-container .contents .content p:nth-child(3) {
+    position: relative;
+    top: 10px;
+}
+.content form p input.active[type="text"] {
+    border-color: #6d6d6d !important;
+}
+div#manualSettings .important_note {
+    padding: 10px;
+}
+div#manualSettings .important_note p {
+    font-size: 18px;
+}
+div#manualSettings .important_note textarea {
+    border: none;
+    text-align: left !important;
+    float: left;
+    font-size: 18px;
+    width: 100% !important;
+    height: auto !important;
+    text-indent: 0 !important;
+    margin: 0;
+    padding: 0;
+}
+.searchBYsku .resetskuForm {
+    right: 71px;
+    background: transparent;
+    border: none;
+    color: #ccc;
+    font-weight: 400;
+}
+.filterBYkeyword .resetkeywordForm, #productOptions .filterBYkeywordOptions .resetFormOptions{
+    background: transparent;
+    border: none;
+    color: #ccc;
+    font-weight: 400;
+}
+#productOptions .filterBYkeywordOptions .resetFormOptions {
+    right: 59px;
+}
+.contents .content .grey_out {
+	background: #ccc !important;
+	border-color: #bdbcbc !important;
+}
+input:focus {
+    outline: none;
+}
+.err_msg {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 12px 0;
+	background: #fce0d8;
+}
+.values_dropdown .fa {
+	font-size: 20px;
+	font-weight: bold;
+}
+.values-container {
+	border: 2px solid #ececec;
+}
+.values-container input[name="doogmaClass"]::placeholder {
+	color: #000;
+} 
+.newFeatures .float_text {
+	vertical-align: top;
+	margin-right: 15px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.newFeatures form p input[type="button"] {
+    background: #4b71fc;
+    width: 120px;
+    padding: 6px 0;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 2px #7994f1;
+}
+.your_account_main {
+	width: 100%;
+}
+.account_left {
+    width: 48%;
+    float: left;
+    padding-top: 90px;
+}
+.account_right {
+    float: right;
+    width: 48%;
+    text-align: center;
+    padding: 90px 20px 0 20px;
+    background: #fafafa;
+    right: 0;
+    height: 100%;
+	    position: relative;
+}
+.mobile-outer {
+    float: left;
+    width: 100%;
+}
+.account_right img {
+    max-width: 130px;
+}   
+.account_bottom {
+    width: 100%;
+    float: right;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.doogma-container {
+    position: relative;
+}
+.mobile-outer {
+    position: relative;
+	    height: 91%;
+}
+.account_bottom img {
+    max-width: 482px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+.account_left h2 {
+    font-size: 53.635px;
+    font-family: "Open Sans";
+    font-weight: 800;
+	margin-top: 0;
+}
+.account_right p {
+
+    margin: 40px 0 20px;
+color: rgb(100, 102, 106);
+}
+.account_right .manage_btn {
+    border-radius: 4px;
+    background-color: rgb(255, 98, 65);
+    box-shadow: 0 8px 10px rgba(230, 233, 237, 1);
+    color: #fff;
+    padding: 16px 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.mobile-inner, .ui-tabs .ui-tabs-panel, .doogma-container, .your_account_main, .account_left {
+    height: 100%;
+    padding-bottom: 0;
+    margin: 0;
+    float: left;
+}	
+.ui-tabs .ui-tabs-panel, .mobile-inner, .doogma-container {
+    width: 100%;
+}
+@media screen and (min-width:1400px) {
+.account_left h2 {
+    font-size: 75.635px;
+}
+.account_right {
+    width: 54%;
+}
+.account_left {
+    width: 45%;
+}
+.account_right p {
+    font-size: 20px;
+}
+.mobile-outer {
+    height: 86.3%;
+}
+.account_right .manage_btn {
+    font-size: 17px;
+}
+}
+@media screen and (min-width: 1500px) {
+.mobile-outer {
+    height: 87.3%;
+}
+.account_right {
+    padding: 138px 20px 0 20px;
+}
+.account_bottom img {
+    max-width: 580px;
+}
+}
+@media screen and (min-width: 1600px) {
+.mobile-outer {
+    height:88.7%;
+}
+}
+@media screen and (min-width: 1900px) {
+.mobile-outer {
+    height: 91.4%;
+}
+.account_right p {
+    font-size: 21px;
+}
+.account_right .manage_btn {
+    font-size: 19px;
+}
+}
+@media(max-width: 1041px){
+.mobile-outer {
+    overflow-x: scroll; 
+}  
+.mobile-inner {
+    width: 942px;
+}
+.account_right {
+    padding: 60px 20px 0 20px;
+}
+.account_left {
+    padding-top: 60px; 
+}
+}   
+@media(max-width: 600px){
+	.account_bottom img {
+    max-width: 352px;
+}
+}
+@media(max-width: 400px){
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header li a {
+    padding: 2px 10px;
+    font-size: 14px;    
+}
+}
